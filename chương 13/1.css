@@ -1,0 +1,10 @@
+:root {
+  --maunen: yellow;
+  --font-size: 11px;
+}
+h1 {
+  color: var(--maunen);
+}
+h2 {
+  font-size: var(--font-size);
+}

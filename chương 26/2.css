@@ -1,0 +1,11 @@
+.diqua {
+  animation: sangphai 0.5s forwards;
+}
+@-webkit-keyframes sangphai {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  }
+}

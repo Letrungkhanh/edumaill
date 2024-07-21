@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.lg {
+  height: 50px;
+  background-color: #3b5998;
+}
+.nd {
+  /* opacity: 0; */
+  visibility: hidden;
+}
+.tgw {
+  /* opacity: 1; */
+  visibility: visible !important;
+}

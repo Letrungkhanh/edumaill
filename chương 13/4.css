@@ -1,0 +1,10 @@
+.vd {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  transition: 1.4s;
+}
+.vd:hover {
+  background-color: green;
+  transition: 0s;
+}

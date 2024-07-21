@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  height: 50px;
+  background-color: #3b5988;
+  padding-right: 500px;
+}
+.khoi1 {
+  float: right;
+  padding-right: 20px;
+  position: relative;
+}
+.nd {
+  position: absolute;
+  width: 200px;
+  font-size: 13px;
+  transition: 0.4s;
+  opacity: 0;
+}
+.lg {
+  padding: 10px 12px;
+  cursor: pointer;
+}
+.nd ul li {
+}
+.mautrang:hover {
+  color: white;
+}
+.ra {
+  opacity: 1;
+}

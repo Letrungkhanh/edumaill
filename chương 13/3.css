@@ -1,0 +1,19 @@
+.hieuung {
+  position: relative;
+}
+.hieuung span {
+}
+
+.hieuung::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  bottom: 0;
+  background-color: yellowgreen;
+  transition: 0.4s;
+}
+.hieuung:hover::after {
+  width: 100%;
+}

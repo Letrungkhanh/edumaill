@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin-top: 50px;
+  margin: auto;
+  width: 100px;
+  height: 30px;
+
+  overflow: hidden;
+}
+.chu {
+  padding-top: 50px;
+  transition: 0.4s;
+}
+.container:hover .chu {
+  padding-top: 0px;
+}

@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.menu {
+}
+.menu .a {
+}
+.menu .b {
+  opacity: 0;
+  transition: 0.4s;
+  /* nếu không dùng opacity =0 thì dùng hidden để ẩn */
+  /* visibility: hidden; */
+}
+.menu .b ul {
+}
+.menu .b ul li {
+}
+.menu:hover .b {
+  opacity: 1;
+  /* ngược lại với hidden  */
+  /* visibility: visible; */
+}

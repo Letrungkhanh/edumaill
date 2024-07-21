@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  /* text-align: center; */
+}
+.row {
+  height: 100px;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  right: 0;
+  left: 0;
+  transition: 0.4s;
+  z-index: 1;
+}
+.logo {
+  padding: 10px 0;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  padding: 10px 20px;
+  list-style: none;
+}
+.text {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  position: relative;
+  top: 100px;
+  /* text-align: center; */
+}
+.nholai {
+  height: 50px;
+}

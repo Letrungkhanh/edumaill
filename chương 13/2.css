@@ -1,0 +1,18 @@
+a.hieu-ung {
+  position: relative;
+}
+a.hieu-ung span {
+}
+
+a.hieu-ung div {
+  position: absolute;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  bottom: 0;
+  background-color: yellowgreen;
+  transition: 0.4s;
+}
+a.hieu-ung:hover div {
+  width: 100%;
+}

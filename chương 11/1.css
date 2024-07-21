@@ -1,0 +1,25 @@
+.container {
+}
+ul {
+}
+li {
+  list-style: none;
+  transition: 0.4s;
+}
+.icon {
+  display: inline;
+  opacity: 0;
+  transition: 0.4s;
+}
+.a {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+li:hover .icon {
+  opacity: 1;
+}
+li:hover {
+  margin-left: 20px;
+}

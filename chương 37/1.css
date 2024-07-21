@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.anh {
+  opacity: 0;
+}
+.anh.hienlen {
+  animation: hl 1s forwards;
+  /* transition: 0.4s; */
+}
+@-webkit-keyframes hl {
+  from {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
